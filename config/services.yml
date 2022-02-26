@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        bind:
+            $root_path: '%core.root_path%'
+            $php_ext: '%core.php_ext%'
+            $tables: '%tables%'
+
+    kaileysnay.pmrules.listener:
+        class: kaileysnay\pmrules\event\main_listener
+        tags:
+            - { name: event.listener }
