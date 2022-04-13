@@ -20,7 +20,7 @@ Allows administrators to set a limit on the number of posts a user must have bef
 
 We use automated unit tests to prevent regressions. Check out our build below:
 
-master: [![Build Status](https://github.com/KaileySnay/pmrules/workflows/Tests/badge.svg)](https://github.com/KaileySnay/pmrules/actions)
+master: [![Build Status](https://github.com/kaileysnay/pmrules/workflows/Tests/badge.svg)](https://github.com/kaileysnay/pmrules/actions)
 
 ## License
 
